@@ -1,0 +1,27 @@
+.events {
+  &__score {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  &__win {
+    background: green;
+  }
+  &__loss {
+    background: red;
+  }
+}
+
+@media (max-width: 700px) {
+  .events {
+    &__name {
+      display: none;
+    }
+    &__score {
+      font-size: 1rem;
+    }
+    td,
+    th {
+      padding: 0.2rem;
+    }
+  }
+}

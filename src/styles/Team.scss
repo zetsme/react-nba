@@ -1,0 +1,25 @@
+.team {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+  &__image {
+    max-width: 100%;
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+  &__name {
+    text-align: center;
+  }
+  &__links {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__link {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+}

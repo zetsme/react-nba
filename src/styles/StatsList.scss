@@ -1,0 +1,27 @@
+.stats {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+  &__heading {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  &__table {
+    border-collapse: collapse;
+    th,
+    td {
+      border: 1px solid #333;
+      padding: 0.2rem 1rem;
+    }
+    tr > *:nth-last-child(-n + 2) {
+      text-align: center;
+    }
+  }
+  &__link {
+    justify-self: flex-end;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+  }
+}
